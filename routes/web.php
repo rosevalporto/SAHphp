@@ -28,5 +28,7 @@
 	});
 
 	Route::get('/Consulta', function () { //pagina depois do login 
-	    return view('consulta');
+	   return view('consulta');
 	});
+
+	Route::get('/Consulta/doador', 'doadorController@listar');

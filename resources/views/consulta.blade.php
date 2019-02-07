@@ -5,7 +5,9 @@
 
 	@section('content')
 
-		<h1> consulta </h1>
+		<h1> consulta </h1> 
+
+		
 
 	@endsection
 
