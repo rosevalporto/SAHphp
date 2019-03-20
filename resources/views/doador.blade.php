@@ -1,13 +1,12 @@
 	@extends('layout')
 
-	@section('title', 'Consulta')
+	@section('title', 'Doador ')
 
 @section('header')
 @endsection
-
 	@section('content')
 
-		<h1> consulta </h1> 
+		<h1> consulta de doador</h1> 
 	   
 		
 

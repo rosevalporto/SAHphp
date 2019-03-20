@@ -2,6 +2,8 @@
 
 @section('title', 'Principal')
 
+@section('header')
+@endsection
 
 @section('content')
  

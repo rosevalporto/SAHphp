@@ -72,7 +72,7 @@ return [
 /* colocar os dados */ 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-            'host' => env('DB_HOST', ''),
+            'host' => env('DB_HOST', '10.202.0.170'),
             'port' => env('DB_PORT', '1433'),
             'database' => env('DB_DATABASE', ''),
             'username' => env('DB_USERNAME', ''),
