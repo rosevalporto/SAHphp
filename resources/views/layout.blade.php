@@ -3,17 +3,20 @@
         <head>
             <meta charset="utf-8" />
             <title>@yield('title')</title>
-            <!-- <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')  }}" type="text/css" rel="stylesheet" media="screen"/> -->
-            <link  href=".css/estilos.css"/>
-
+            <!-- <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')  }}"  media="screen"/>
+            <link type="text/css" rel="stylesheet" href=".."/>  -->
+            <link rel="stylesheet" href="<?php echo asset('css/estilo.css')?>" type="text/css">
         </head>
-    <body>
+    <body >
       <div class="header">
         @yield('header')
             <h1> -colocar image e titulo pequeno --</h1>
-       </div> 
+       <!-- ver se vale a pena colocar  @yield('js-view')
+          @yield('css-view')
+       </div> -->
      
-      <div id="sidebar"> @yield('content')
+<div id="sandwich-wrapper">
+       @yield('content')
  <nav class="navbar navbar-default" role="navigation">
  <div class="container">
  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -34,19 +37,7 @@
   </div>
   </div>
 </nav>
-
-
-          <!--  <ul class="dropdown-menu">
-                <li><a href="./Principal">Pagina Principal </a></li>
-                <li><a href="/Estatistica"> Estatistica</a></li>
-                <li><a href="/Consulta"> Consulta</a></li>
-                      <ul><a href="/Consulta/Doador">Doador</a></ul>
-                      <ul><a href="/Consulta/Paciente">Paciente</a></ul>
-                      <ul><a href="/Consulta/Doacao">Doação</a></ul>
-                <li><a href="/Qualidade"> Qualidade </a></li>
-                <li><a href="/"> Sair</a></li>
-            </ul>  -->
-            <h1> -----------</h1>
+  <h1> -----------</h1>
          </div>
        
         <div id="footer">

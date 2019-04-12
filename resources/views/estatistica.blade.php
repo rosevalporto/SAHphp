@@ -4,6 +4,7 @@
 
 
 	@section('content')
+	
 	<h1>Estatistica  </h1>
 
 	<?php 

@@ -7,6 +7,7 @@ use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller
 {
+      protected $table = 'usuario';
     /*
     |--------------------------------------------------------------------------
     | Password Reset Controller

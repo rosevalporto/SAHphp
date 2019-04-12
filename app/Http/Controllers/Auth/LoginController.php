@@ -7,6 +7,7 @@ use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller
 {
+   // protected $username = 'username';
     /*
     |--------------------------------------------------------------------------
     | Login Controller

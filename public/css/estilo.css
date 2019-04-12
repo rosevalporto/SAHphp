@@ -1,19 +1,41 @@
-#sidebar{
-  /* Definimos a largura da página*/
-  width:50px;
-  /* Definirmos a altura da página*/
-  height:50px;
-  /* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela
-  top : posição de cima */
-  margin-top:10;
-   /*left: posição de esquerda*/
-  margin-left:auto;
-  /* bottom : posição de baixo*/ 
-  margin-bottom:0;
-   /*right : posição de direita */
-  margin-right:auto;
-  /* Aqui definiremos a cor de fundo da página*/ 
-  background-color:#A9A9A9;
+/*.sidebar {
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: skyblue;
+   width: 255px;
+   height: 100%;
+   z-index: 3;
+   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+   transition: all ease 1s;
+}
+     
+/*   
+.left-menu > .top {
+   width: 100%;
+   height: 170px;
+   background-color: skyblue;
+   background-image: url("bg.jpg");
+   background-size: 100% 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+        
+.left-menu > .content {
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+        
+.left-menu > .content > div {
+   margin-top: 30px;
+   font-size: 15px;
+   cursor: pointer;
 }
 
 /*#header{
@@ -37,3 +59,29 @@
  Cor de fundo da div 
   background-color:#C3C;
   }*/
+.body {
+   margin: 0;
+   padding: 0;
+}
+        
+.header {
+   position: relative;
+   width: 100%;
+   height: 60px;
+   background-color: deepskyblue;
+}
+ 
+.sandwich-wrapper {
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   top: 10px;
+   left: 20px;
+   cursor: pointer;
+}
+ 
+.sandwich-wrapper > hr {
+   width: 70%;
+   border: 1px solid white;
+}
+ 

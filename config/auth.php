@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+         
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
@@ -16,6 +16,7 @@ return [
     'defaults' => [
         'guard' => 'web',
         'passwords' => 'users',
+     //    protected $table = 'usuario.php';
     ],
 
     /*
@@ -44,6 +45,7 @@ return [
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
+            'hash' => false,
         ],
     ],
 
@@ -67,12 +69,13 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => App\Usuario::class,
+          //  'table' => 'usuario',
         ],
 
         // 'users' => [
         //     'driver' => 'database',
-        //     'table' => 'users',
+        //     'table' => 'usuario',
         // ],
     ],
 

@@ -10,7 +10,7 @@ class controllerDoador extends Controller
 {
 public function consulta()
 {
-  $doador = DB::table('dbo.doador')->where('doador','like',"%velasco%")->get();
+  $doador = DB::table('dbo.doador')->where('doador','like',"%viviane rose%")->get();
 	echo '<hr>';
 	foreach ($doador as $Doador){
 		//print_r($doador);
